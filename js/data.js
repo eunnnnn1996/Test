@@ -6,7 +6,7 @@ const qnaList = [
         { answer: 'b. 바닷가와 해변', type: ['uk', 'korea', 'newzealand', 'vietnam', 'tiwan'] },
         { answer: 'c. 고층빌딩과 도시의 야경', type: ['usa', 'japan' ] },
       ]
-    },
+    }, // 여기까지가 qnaList[0] 리스트
     {
       q: '2. 좋아하는 시간 보내기 방법 ',
       a: [

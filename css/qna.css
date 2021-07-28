@@ -1,3 +1,25 @@
 #qna{
     display: none;
 }
+
+.qBox{
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 24px;
+    width: 80%;
+}
+
+.answerList{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    display: block;
+    width: 80%;
+    border: 0px;
+    font-size: 20px;
+}
+
+.answerList:hover, .answerList:focus{ /*hover은 마우스를 올렸을때, focus는 마우스 클릭을 했을때*/
+    background-color: pink;
+    color: whitesmoke;
+}
