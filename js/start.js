@@ -1,6 +1,6 @@
 const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
-
+const endPoint = 7;
 
 function addAnswer(answerText,qIdx){
     var a = document.querySelector('.answerBox');
@@ -34,6 +34,8 @@ function goNext(qIdx){
     for(let i in qnaList[qIdx].a){ //총 3번 반복
         addAnswer(qnaList[qIdx].a[i].answer,qIdx);
     }
+    var status = document.querySelector('.statusBar');
+    status.style.width = (100/endPoint) * (qIdx+1) +'%';
 }
 
 function begin(){
