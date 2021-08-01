@@ -12,3 +12,16 @@
 .resultDesc{
     font-size: 20px;
 }
+
+.kakao{
+    color: white;
+    background-color: #FEE500;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.kakao:hover, .kakao:focus{ /*hover은 마우스를 올렸을때, focus는 마우스 클릭을 했을때*/
+    background-color: whitesmoke;
+    color: #FEE500;
+}
